@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+*{
+    /* border: 1px solid black; */
+}
+
+body{
+    /* background-color: #213555; */
+    background: white;
+    /* background: linear-gradient(142deg, rgba(33,137,214,1) 4%, rgba(205,200,3,1) 94%); */
+}
+#hero{
+    /* background-image: url(./assets/wave-haikei.svg);
+    background-size: cover;
+    background-repeat: no-repeat; */
+    background-color: #2189d6;
+    opacity:0.7;
+    /* clip-path: polygon(82% 0, 100% 0, 100% 100%, 0 100%, 36% 100%); */
+    clip-path: polygon(0 0, 78% 0, 27% 100%, 0 100%, 0 100%);
+}
